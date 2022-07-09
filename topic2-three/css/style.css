@@ -1,11 +1,11 @@
 nav {
     background-color: crimson;
     height: 90px;
-
+    width: 60%;
 }
 
 nav ul {
-
+    padding-top: 15px;
     display: flex;
 
 }
@@ -14,19 +14,21 @@ nav li {
     margin-left: 20px;
     padding: 15px;
     list-style: none;
+
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     background-color: rgb(16, 213, 181);
     padding: 15px;
 
 }
 
 nav li a:hover {
-    background-color: rgb(180, 180, 248);
-    font-size: 21px;
+    background-color: rgb(97, 247, 97);
+    color: black;
 
 }
