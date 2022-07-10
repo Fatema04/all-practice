@@ -1,7 +1,7 @@
 nav {
     background-color: crimson;
     height: 90px;
-    width: 60%;
+    width: 70%;
 }
 
 nav ul {
@@ -27,8 +27,9 @@ nav a {
 
 }
 
-nav li a:hover {
+nav li :hover {
     background-color: rgb(97, 247, 97);
     color: black;
+    font-size: 23px;
 
 }
