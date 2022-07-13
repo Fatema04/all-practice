@@ -12,9 +12,9 @@
 
     <style>
         body {
-            background: url(asset/bg2.svg);
+            /*background: url(asset/bg2.svg);
             background-size: cover;
-            background-repeat: no-repeat;
+            background-repeat: no-repeat;*/
             font-family: 'Ubuntu', sans-serif;
             padding: 0px;
             margin: 0px;
@@ -85,6 +85,10 @@
 
         main {
             display: flex;
+            background: url(asset/bg2.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 310px;
         }
 
         .left-side {
@@ -150,6 +154,51 @@
             border-radius: 13% 87% 57% 43% / 56% 69% 31% 44%;
         }
 
+        .topic-upside {
+            background-color: cadetblue;
+            display: flex;
+        }
+
+
+        .topic-downside {
+            margin-top: 30px;
+            background-color: cadetblue;
+            display: flex;
+        }
+
+        .topic {
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            margin-left: 50px;
+        }
+
+        .search-box {
+            height: 150px;
+            display: grid;
+
+        }
+
+        i {
+            background-color: brown;
+            position: absolute;
+            left: 250px;
+
+        }
+
+        input {
+            height: 0px;
+            width: 0px;
+        }
+
+        .search-box:hover>input {
+            height: 40px;
+            width: 280px;
+        }
+
+
+
+
 
 
 
@@ -161,7 +210,9 @@
             border-radius: 30% 70% 52% 48% / 30% 14% 86% 70%;
         }*/
     </style>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
@@ -209,13 +260,53 @@
             <img class="img3" src="images/lab.png" alt="">
             <img class="img4" src="images/lab2.png" alt="">
             <img src="" alt="">
-
+        </div>
+    </main>
+    <h2>Choose your favourite topic</h2>
+    <div class="topic-upside">
+        <div class="topic">
+            <h4>FRUIT</h4>
+        </div>
+        <div class="topic">
+            <h4>VEGETABLE</h4>
 
         </div>
+        <div class="topic">
+            <h4>FLOWER</h4>
+
+        </div>
+        <div class="topic">
+            <h4>ANIMAL</h4>
+        </div>
+    </div>
 
 
-    </main>
+    <div class="topic-downside">
+        <div class="topic">
+            <h4>SCIENCE</h4>
+        </div>
+        <div class="topic">
+            <h4>SPORTS</h4>
 
+        </div>
+        <div class="topic">
+            <h4>MATH</h4>
+
+        </div>
+        <div class="topic">
+            <h4>RELIGION</h4>
+        </div>
+    </div>
 </body>
+<footer>
+    <div class="search-box">
+
+
+        <input type="text" class="search">
+        <i class="fa-solid fa-magnifying-glass fa-3x"></i>
+    </div>
+
+
+
 
 </html>
