@@ -1,0 +1,99 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: gold;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left ul,
+.header-right ul,
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-left li,
+.header-right li,
+nav li {
+    list-style: none;
+    padding: 7px 12px;
+    margin-top: 5px;
+}
+
+.header-left a,
+.header-right a,
+nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+}
+
+.header-right li:nth-child(1) {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    height: 80px;
+}
+
+.logo {
+    width: 30%;
+}
+
+nav {
+    width: 70%;
+}
+
+.all-option {
+    background-color: cornflowerblue;
+    height: 400px;
+
+
+
+    margin-top: 20px;
+}
+
+
+.option-middle,
+.option-up,
+.option-down {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.option-up {
+    margin-top: 30px;
+
+}
+
+.option {
+    background: black;
+    height: 120px;
+    width: 250px;
+    margin: 40px 40px 0 60px;
+    border-radius: 15px;
+    padding: 60px 0 0 0;
+
+
+}
+
+.option a {
+    text-decoration: none;
+
+    font-size: 35px;
+    font-weight: bolder;
+}
