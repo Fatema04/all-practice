@@ -58,8 +58,9 @@ nav {
 
 .all-option {
 
-    height: 620px;
+    height: 660px;
     margin-top: 20px;
+    border-bottom: 1px solid grey;
 }
 
 
@@ -96,7 +97,7 @@ nav {
 }
 
 #op-one {
-    background-color: green;
+    background-color: rgb(17, 143, 17);
 }
 
 #op-two {
@@ -116,7 +117,7 @@ nav {
 }
 
 #op-five {
-    background-color: forestgreen;
+    background-color: rgb(180, 5, 186);
 }
 
 #op-six {
@@ -129,4 +130,74 @@ nav {
 
 #op-eight {
     background-color: darkred;
+}
+
+.link-area {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+.part-2 li,
+.part-3 li,
+.part-4 li {
+    list-style: none;
+}
+
+.part-2 a,
+.part-3 a,
+.part-4 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 70px;
+    border-top: 1px solid grey;
+}
+
+.footer-middle ul {
+    display: flex;
+
+}
+
+.footer-middle li {
+    list-style: none;
+
+}
+
+.footer-middle a {
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.fa-brands {
+    padding-left: 10px;
+
+}
+
+.fa-facebook {
+    color: rgb(6, 6, 128);
+}
+
+.fa-twitter {
+    color: rgb(85, 120, 245);
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: deeppink;
 }
