@@ -57,11 +57,8 @@ nav {
 }
 
 .all-option {
-    background-color: cornflowerblue;
-    height: 400px;
 
-
-
+    height: 620px;
     margin-top: 20px;
 }
 
@@ -81,19 +78,55 @@ nav {
 }
 
 .option {
-    background: black;
-    height: 120px;
-    width: 250px;
+
+    height: 100px;
+    width: 260px;
     margin: 40px 40px 0 60px;
     border-radius: 15px;
     padding: 60px 0 0 0;
-
+    box-shadow: 2px 1px 9px black;
 
 }
 
 .option a {
     text-decoration: none;
-
+    color: rgb(243, 246, 248);
     font-size: 35px;
     font-weight: bolder;
+}
+
+#op-one {
+    background-color: green;
+}
+
+#op-two {
+    background-color: rgb(7, 7, 127);
+}
+
+#op-three {
+    background-color: crimson;
+}
+
+#op-four {
+    background-color: chocolate;
+}
+
+#op-nine {
+    background-color: deeppink;
+}
+
+#op-five {
+    background-color: forestgreen;
+}
+
+#op-six {
+    background-color: rgb(234, 200, 7);
+}
+
+#op-seven {
+    background-color: rgb(130, 8, 182);
+}
+
+#op-eight {
+    background-color: darkred;
 }
