@@ -26,6 +26,11 @@ nav li {
     margin-top: 5px;
 }
 
+.header-left li a:hover {
+    color: white;
+    text-shadow: 1px 2px black;
+}
+
 .header-left a,
 .header-right a,
 nav a {
@@ -44,13 +49,34 @@ nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;
+    border-bottom: 1px solid grey;
     height: 80px;
+    margin-bottom: 30px;
 }
 
 .logo {
     width: 30%;
+    display: flex;
+
 }
+
+.logo img {
+    height: 70px;
+    padding-left: 10px;
+}
+
+.logo h2 {
+    padding: 10px 0 0 10px;
+    font-size: 40px;
+
+}
+
+.text {
+    background: linear-gradient(rgb(230, 9, 152) 50%, blue) 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 nav {
     width: 70%;
@@ -69,7 +95,6 @@ nav {
 .option-down {
     display: flex;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
 
 
 
@@ -78,17 +103,20 @@ nav {
 .option-up {
     margin-top: 30px;
 
+
+
 }
 
 .option {
 
-    height: 100px;
-    width: 260px;
+    height: 90px;
+    width: 290px;
     margin: 40px 40px 0 60px;
     border-radius: 15px;
     padding: 60px 0 0 0;
     box-shadow: 2px 1px 9px black;
     font-family: 'Ubuntu', sans-serif;
+
 
 }
 
@@ -100,9 +128,10 @@ nav {
 
 }
 
-#op-one {
 
-    background-color: rgb(17, 143, 17);
+
+#op-one {
+    background-color: rgb(8, 101, 8);
 }
 
 #op-two {
@@ -137,15 +166,21 @@ nav {
     background-color: darkred;
 }
 
+
+
+
+
 .link-area {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
 
 
 }
+
+
 
 .part-2 li,
 .part-3 li,
@@ -158,6 +193,18 @@ nav {
 .part-4 a {
     text-decoration: none;
     color: black;
+}
+
+.part-2 a:hover {
+    color: rgb(238, 177, 24);
+}
+
+.part-3 a:hover {
+    color: rgb(238, 177, 24);
+}
+
+.part-4 a:hover {
+    color: rgb(238, 177, 24);
 }
 
 footer {
@@ -184,6 +231,10 @@ footer {
     padding-left: 15px;
     font-size: 20px;
     color: black;
+}
+
+footer li :hover {
+    color: rgb(238, 177, 24);
 }
 
 .fa-brands {
