@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .dropdown {
+            display: flex;
+
+        }
+
+        .dropdown li {
+            width: 140px;
+            padding: 0px;
+            margin: 5px;
+        }
+
+        .dropdown li {
+            list-style: none;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .dropdown li ul {
+            display: none;
+        }
+
+
+        .dropdown>li:hover>ul {
+            display: block;
+        }
+
+        .dropdown>li>ul {
+            padding: 0;
+        }
+
+        .dropdown>li>ul>li {
+            position: relative;
+        }
+
+        .dropdown>li>ul>li>ul {
+            position: absolute;
+            left: 70px;
+            top: 0;
+        }
+
+        .dropdown>li>ul>li>ul {
+            display: none;
+        }
+
+        .dropdown>li>ul>li:hover>ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="dropdown">
+            <li><a href="">HOME</a></li>
+            <li><a href="">ITEM</a>
+
+                <ul>
+                    <li><a href="">RICE</a></li>
+                    <li><a href="">VORTA</a>
+
+                        <ul>
+                            <li><a href="">EGG-PLANT</a></li>
+                            <li><a href="">POTATO</a></li>
+                            <li><a href="">TOMATO</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="">FISH</a>
+                        <ul>
+                            <li><a href="">RUI</a></li>
+                            <li><a href="">CATLE</a></li>
+                            <li><a href="">PRAWN</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="">BEAF</a></li>
+                </ul>
+
+
+            </li>
+            <li><a href="">CONTACT</a>
+                <ul>
+                    <li><a href="">FACEBOOK</a></li>
+                    <li><a href="">TWITTER</a></li>
+                    <li><a href="">INSTAGRAM</a></li>
+                </ul>
+
+            </li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
