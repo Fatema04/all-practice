@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav>ul {
+            display: flex;
+            background-color: chartreuse;
+
+        }
+
+        nav>ul>li {
+            list-style: none;
+            padding: 15px;
+            width: 70px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: rgb(23, 22, 22);
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown li {
+            list-style: none;
+            margin: 10px 0px;
+
+
+        }
+
+        nav>ul>li:hover>ul {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+
+
+            <li><a href="">Food
+
+                    <ul class="dropdown">
+                        <li><a href="">Break fast</a></li>
+                        <li><a href="">Lunch</a></li>
+                        <li><a href="">Dinner</a></li>
+                    </ul>
+
+
+                </a></li>
+
+
+            <li><a href="">Drinks</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
