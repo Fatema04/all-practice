@@ -44,6 +44,31 @@
             padding: 0;
             margin: 0;
         }
+
+        .branch {
+            display: none;
+            position: absolute;
+        }
+
+        .dropdown>li:hover>ul {
+            display: block;
+            padding-left: 100px;
+
+            margin: 0;
+        }
+
+        .branch>ul>li {
+            width: 90px;
+        }
+
+        .dropdown li ul li {
+            position: relative;
+        }
+
+        .dropdown li ul {
+            position: absolute;
+            top: 0;
+        }
     </style>
 </head>
 
@@ -58,7 +83,7 @@
                     <ul class="dropdown">
                         <li><a href="">Break fast
 
-                                <ul>
+                                <ul class="branch">
                                     <li><a href="">Sandwitch</a></li>
                                     <li><a href="">Burger</a></li>
                                     <li><a href="">Omlet</a></li>
