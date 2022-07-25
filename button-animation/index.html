@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #161616;
+        }
+
+        .parent {
+            position: relative;
+            top: 30px;
+        }
+
+        img {
+            width: 219px;
+            height: 153px;
+            position: absolute;
+            left: 202px;
+            top: 2px;
+            z-index: 20;
+        }
+
+        .rec1 {
+            position: relative;
+            left: 200px;
+            width: 224px;
+            height: 158px;
+            background-color: rgb(4, 4, 82);
+            overflow: hidden;
+        }
+
+        .rec1::before {
+            height: 290px;
+            width: 50px;
+            background: rgb(246, 61, 224);
+            box-shadow: 0 0 20px #fb57eb,
+                0 0 30px #fb57eb,
+                0 0 40px #fb57eb,
+                0 0 50px #fb57eb,
+                0 0 80px #fb57eb,
+                0 0 100px #fb57eb;
+            position: absolute;
+            left: 90px;
+            bottom: -30px;
+            animation: animate 0.7s linear infinite;
+        }
+
+        @keyframes animate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="parent">
+        <img src="logo.png" alt="">
+        <div class="rec1"></div>
+        <div class="rec2"></div>
+    </div>
+
+</body>
+
+</html>
